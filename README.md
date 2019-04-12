@@ -1,0 +1,2 @@
+# aiker
+Politica de Privacidade!
