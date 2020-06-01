@@ -1,0 +1,94 @@
+<footer class="pt-4 py-8 py-md-11 bg-gray-200">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-3">
+                <img src="{{ "/assets/img/brand.svg" | relative_url }}" alt="Logo da Mexy em formato de texto"
+                    class="footer-brand img-fluid mb-2">
+                <p class="text-gray-700 mb-2">
+                    A melhor maneira de construir.
+                </p>
+                <ul class="list-unstyled list-inline list-social mb-6 mb-md-0">
+                    <li class="list-inline-item list-social-item mr-3">
+                        <a href="https://www.instagram.com/mexyapps/" target="_blank" class="text-decoration-none">
+                            <svg class="icon icon-instagram icon-footer">
+                                <use xlink:href="#icon-instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="list-inline-item list-social-item mr-3">
+                        <a href="https://www.facebook.com/mexyapps/" target="_blank" class="text-decoration-none">
+                            <svg class="icon icon-facebook icon-footer">
+                                <use xlink:href="#icon-facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="list-inline-item list-social-item mr-3">
+                        <a href="https://www.github.com/mexyapps/" target="_blank" class="text-decoration-none">
+                            <svg class="icon icon-github icon-footer">
+                                <use xlink:href="#icon-github"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="col-6 col-md-3">
+
+                <!-- Heading -->
+                <h6 class="font-weight-bold text-uppercase text-gray-700">
+                    Produtos
+                </h6>
+
+                <!-- List -->
+                <ul class="list-unstyled text-muted mb-6 mb-md-8 mb-lg-0">
+                    <li class="mb-3">
+                        <a href="#!" class="text-reset">
+                            Link de Exemplo
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="col-6 col-md-3">
+
+                <!-- Heading -->
+                <h6 class="font-weight-bold text-uppercase text-gray-700">
+                    Serviços
+                </h6>
+
+                <!-- List -->
+                <ul class="list-unstyled text-muted mb-6 mb-md-8 mb-lg-0">
+                    <li class="mb-3">
+                        <a href="#!" class="text-reset">
+                            Link de Exemplo
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="col-6 col-md-3">
+
+                <!-- Heading -->
+                <h6 class="font-weight-bold text-uppercase text-gray-700">
+                    Legal
+                </h6>
+
+                <!-- List -->
+                <ul class="list-unstyled text-muted mb-0">
+                    <li class="mb-3">
+                        <a href="{% link legal/politica-de-privacidade.md %}" class="text-reset">
+                            Políticas de Privacidade
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+        <div class="row">
+            <a href="https://www.vecteezy.com/free-vector/" target="_blank">Vectors by Vecteezy</a>
+        </div>
+        <div>
+            {{ site.time | date: '%Y' }}
+        </div>
+    </div>
+</footer>

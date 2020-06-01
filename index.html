@@ -1,190 +1,37 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+---
+layout: default
+title: "Home"
+---
+<section class="pt-4">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-12 col-md-5 col-lg-6 order-md-2">
+                <img src="{{ "/assets/img/programadora.svg" | relative_url }}"
+                    class="img-fluid mw-md-150 mw-lg-130 mb-6 mb-md-0 aos-init aos-animate"
+                    alt="Ilustração de uma mulher trabalhando no computador" data-aos="fade-up" data-aos-delay="100">
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Aiker Inc - Apps para o dia a dia!</title>
-    <meta name="description" content="Aiker Inc - Desenvolvimento de aplicativos Android para o dia a dia!">
-    <meta name="viewport" content="width=device-width, user-scalable=no">
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="./css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
-</head>
-
-<body>
-    <!--Barra de navegação-->
-    <nav class="navbar navbar-fixed-top navbar-inverse navbar-transparente">
-        <div class="container">
-            <!-- header -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#barra-navegacao">
-              <span class="sr-only">alternar navegação</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-
-                <a href="index.html" class="navbar-brand">
-                    <span class="img-logo">AIKER</span>
-                </a>
             </div>
+            <div class="col-12 col-md-7 col-lg-6 order-md-1 aos-init aos-animate" data-aos="fade-up">
 
-            <!-- navbar-->
-            <div class="collapse navbar-collapse" id="barra-navegacao">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#">HOME</a></li>
-                    <li><a href="#aplicativos">APLICATIVOS</a></li>
-                    <li><a href="#sobre">EQUIPE</a></li>
-                </ul>
-            </div>
-        </div>
-        <!--fim container-->
-    </nav>
-    <!-- fim navbar-->
-    <div class="capa">
-        <div class="texto-capa">
-            <h1><strong>AIKER</strong></h1>
-            <h3>Soluções em aplicativos android.</h3>
-        </div>
-    </div>
+                <h1 class="display-3 text-center text-md-left">
+                    Bem vindo à <span class="text-primary">Mexy</span>.
+                </h1>
 
-    <div id="aplicativos" class="container-fluid">
-        <div class="row">
-            <div class="col-md-5 col-sm-5 confdev"><img class="gradient" src="img/tembusao.png" width="450px" height="550px" text-align="center"></div>
-            <div class="col-md-7 col-sm-7 conf">
-                <p><img class="lit" src="img/icon-tembusao2.svg" alt="Tem Busão?" width="150px" height="130px"><br/><br/><strong>Tem Busão? - Horários de Cachoeiro de Itapemirim</strong><br/><br/>
-                    <i class="fa fa-check-circle" style="font-size:40px;color:#fff"></i> Acessar todos os horários de ônibus de Cachoeiro de Itapemirim - ES.<br/><br/>
-                    <i class="fa fa-check-circle" style="font-size:40px;color:#fff"></i> Forma muito fácil e rápida e o melhor com os horários sempre atualizados.<br/><br/>
-                    <i class="fa fa-check-circle" style="font-size:40px;color:#fff"></i> Favoritar a linha de ônibus que você costuma pegar.<br/><br/>
-                    <a href="https://play.google.com/store/apps/details?id=br.com.aiker.tembusao&hl=pt_BR" target="_blank"><img src="img/badge_google_play.png" alt="Download Google Play"></a>
-                </p>
-            </div>
-        </div>
-    </div>
-
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-7 col-sm-7 content">
-                <p><img class="lit" src="img/cinesulicone.svg" alt="Cine Sul" width="150px" height="130px"><br/><br/><strong>Cine Sul - Seu cinema na palma da sua mão</strong><br/><br/>
-                    <i class="fa fa-check-circle" style="font-size:40px;color:#323d47"></i> Horários e salas de exibição das sessões.<br/><br/>
-                    <i class="fa fa-check-circle" style="font-size:40px;color:#323d47"></i> Valores de ingressos por cinema.<br/><br/>
-                    <i class="fa fa-check-circle" style="font-size:40px;color:#323d47"></i> Promoções.<br/><br/>
-                    <a href="https://play.google.com/store/apps/details?id=br.com.aiker.cinesul&hl=pt_BR" target="_blank"><img src="img/badge_google_play.png" alt="Download Google Play"></a>
-                </p>
-            </div>
-            <div class="col-md-5 col-sm-5 contentdev"><img class="blanc" src="img/CineSul.png"></div>
-        </div>
-    </div>
-
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-5 col-sm-5 confdev"><img class="gradient" src="img/coffe.png" width="450px" height="550px" text-align="center"></div>
-            <div class="col-md-7 col-sm-7 conf">
-                <p><img class="lit" src="img/iconecoffe.svg" alt="Coffe" width="150px" height="130px"><br/><br/><strong>Coffe - Cotação do Café Arábica, Conilon/Robusta</strong><br/><br/>
-                    <i class="fa fa-check-circle" style="font-size:40px;color:#fff"></i> Tenha acesso as cotações diárias e também a um histórico dos preços semanais.<br/><br/>
-                    <i class="fa fa-check-circle" style="font-size:40px;color:#fff"></i> Cotações disponíveis: Cotação do Café Arábica, cotação do Café Conilon/Robusta.<br/><br/>
-                    <i class="fa fa-question-circle" style="font-size:40px;color:#fff"></i> Fonte das Cotações: www.cepea.esalq.usp.br<br/><br/>
-                    <a href="https://play.google.com/store/apps/details?id=br.com.aiker.tembusao&hl=pt_BR" target="_blank"><img src="img/badge_google_play.png" alt="Download Google Play"></a>
-                </p>
-            </div>
-        </div>
-    </div>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-7 col-sm-7 content">
-                <p><img class="lit " src="img/icone_detran.svg " alt="Simulado Detran" width="150px " height="130px "><br/><br/><strong>Simulado Detran - Questões 2019</strong><br/><br/>
-                    <i class="fa fa-check-circle " style="font-size:40px;color:#323d47 "></i> Selecione quantas questões de cada simulado deseja fazer.<br/><br/>
-                    <i class="fa fa-check-circle " style="font-size:40px;color:#323d47 "></i> Veja histórico de resultado e ver seu andamento durante os testes.<br/><br/>
-                    <i class="fa fa-check-circle " style="font-size:40px;color:#323d47 "></i> Retorne cada questão para verificar erros e acertos.<br/><br/>
-                    <i class="fa fa-check-circle " style="font-size:40px;color:#323d47 "></i> Volte para realizar um novo simulado.<br/><br/>
-                    <a href="https://play.google.com/store/apps/details?id=br.com.aiker.simuladodetran&hl=pt_BR" target="_blank "><img src="img/badge_google_play.png " alt="Download Google Play "></a>
+                <p class="lead text-center text-md-left text-muted mb-6 mb-lg-8">
+                    Tranformamos suas ideias em soluções digitais.
                 </p>
 
-            </div>
-            <div class="col-md-5 col-sm-5 contentdev"><img class="blanc" src="img/detran.png" width="450px" height="550px"></div>
-        </div>
-    </div>
-
-    <div id="sobre" class="container-fluid">
-        <div class="container">
-            <h2>Equipe</h2>
-            <hr class="hr-15-branco mb-5">
-            <div id="equipe" class="row">
-                <div class="circle">
-                    <img class="rounded-circle filter-member" src="img/douglas.jpeg" alt="Foto Douglas Gusson" width="200" height="200">
-                    <p class="text">Douglas Gusson</p><br/>
+                <div class="text-center text-md-left">
+                    <a href="#" class="btn btn-primary shadow lift mr-1">
+                        Saiba mais
+                    </a>
                 </div>
 
-                <div class="circle">
-                    <img class="rounded-circle filter-member" src="img/leandro.jpeg" alt="Foto Leandro Ferreira" width="200" height="200">
-                    <p class="text">Leandro Ferreira</p><br/>
-                </div>
-
-                <div class="circle">
-                    <img class="rounded-circle filter-member" src="img/fernando.jpeg" alt="Foto Fernando Bueno " width="200 " height="200 ">
-                    <p class="text ">Fernando Bueno</p><br/>
-                </div>
-
-                <div class="circle ">
-                    <img class="rounded-circle filter-member " src="img/jonatan.jpeg " alt="Foto Jonatan Bandeira " width="200 " height="200 ">
-                    <p class="text ">Jonatan Bandeira</p><br/>
-                </div>
             </div>
         </div>
     </div>
+</section>
 
-    <div class="col-md-12 col-sm-12 footer ">
-        <div class="row ">
-            <div class="container-fluid ">
-                <a title="Facebook " href="# " class="circle-icons fa fa-facebook "></a>
-                <a title="Gmail " href="# " class="circle-icons fa fa-google "></a>
-                <a title="Instagram " href="# " class="circle-icons fa fa-instagram "></a><br/><br/>
-            </div>
-        </div>
-        <div class="container-fluid ">
-            <span>&copy; 2019 - Aiker Inc.</span>
-        </div>
-    </div>
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous "></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js " integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1 " crossorigin="anonymous "></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js " integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM " crossorigin="anonymous "></script>
-    <script type="text/javascript ">
-        jQuery(function() {
-            jQuery(window).scroll(function() {
-                if (jQuery(this).scrollTop() > 50) {
-                    $(".navbar-transparente ").css('background', 'rgba(0,0,0,0.8)');
-                } else {
-                    $(".navbar-transparente ").css('background', 'rgba(0,0,0,0)');
-                }
-            });
-        });
-    </script>
-
-    <script type="text/javascript ">
-        $(document).ready(function() {
-            $(window).scroll(function() {
-                if ($(this).scrollTop() > 100) {
-                    $('.voltar-ao-topo').fadeIn();
-                } else {
-                    $('.voltar-ao-topo').fadeOut();
-                }
-            });
-            $('.voltar-ao-topo').click(function() {
-                $('html, body').animate({
-                    scrollTop: 0
-                }, 800);
-                return false;
-            });
-        });
-    </script>
-</body>
-
-</html>
+<section id="portifolio">
+    <h2>portifolio</h2>
+</section>

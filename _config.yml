@@ -1,0 +1,30 @@
+url: "https://mexy.com.br" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+title: "Mexy" # the name of your site, e.g. ACME Corp.
+tagline: "An awesome tagline"
+email: comtato@mexy.com.br
+author: Mexy
+description: >- # this means to ignore newlines until "baseurl:"
+  "A melhor maneira de construir"
+
+permalink: /:title/
+lang: "pt-br"
+
+
+sass:
+  style: compressed
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-autoprefixer
+  - jekyll-seo-tag
+
+google_analytics: 
+
+social:
+  name: Mexy
+  links:
+    - https://twitter.com/mexyapps
+    - https://www.facebook.com/mexyapps
+    - https://www.linkedin.com/in/mexyapps
+    - https://github.com/mexyapps
