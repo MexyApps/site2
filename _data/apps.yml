@@ -1,5 +1,5 @@
 - nome: Tem Busão
-  descricao: Horário de ônibus de Cachoeiro de Itapemirim e região.
+  descricao: Horário de ônibus de Cachoeiro de Itapemirim e região
   icone: /assets/img/aplicativos/tembusao.png
   googleplay: https://play.google.com/store/apps/details?id=br.com.aiker.tembusao
 
@@ -14,3 +14,21 @@
   descricao: Horários das sessões de cinema de Cachoeiro, Marataízes e Piúma
   icone: /assets/img/aplicativos/cinesul.png
   googleplay: https://play.google.com/store/apps/details?id=br.com.aiker.cinesul
+
+
+- nome: Simulado Detran
+  descricao: Estude resolvendo as questões da prova teórica da sua primeira habilitação, pratique em qualquer lugar
+  icone: /assets/img/aplicativos/simuladodetran.png
+  googleplay: https://play.google.com/store/apps/details?id=br.com.aiker.simuladodetran
+
+
+- nome: Cotação de Moedas
+  descricao: Com esse aplicativo você consegue cotações das principais moedas mundiais em tempo real
+  icone: /assets/img/aplicativos/cotacaomoedas.png
+  googleplay: https://play.google.com/store/apps/details?id=br.com.aiker.cotacaodemoedas
+
+
+- nome: Sorteador de Bingo
+  descricao: Aplicativo para realização de sorteios bingo. Diversos modos disponíveis
+  icone: /assets/img/aplicativos/sorteadorbingo.png
+  googleplay: https://play.google.com/store/apps/details?id=br.com.aiker.sorteadordebingo

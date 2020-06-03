@@ -32,8 +32,6 @@ title: "Home"
     </div>
 </section>
 
-
-
 <section id="portifolio" class="portifolio ">
     <div class="container">
         <div class="text-center pb-4 ">
@@ -43,7 +41,7 @@ title: "Home"
         <div class="row">
             {% for app in site.data.apps %}
             <div class="col-lg-4 col-sm-6 mb-4">
-                <div class="card text-center card-hover">
+                <div class="card text-center">
                     <div class="px-4 py-5">
                         <img src="{{ app.icone }}"
                             alt="Ícone do aplicativo {{ app.nome }}">
