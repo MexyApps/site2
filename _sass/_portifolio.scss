@@ -1,0 +1,15 @@
+.portifolio {
+    
+    .title {
+        color: $primary;
+    }
+    
+    .card-hover {
+        transition: all 0.5s;
+
+        &:hover {
+            transform: translateY(-1rem);
+            box-shadow: 0 1rem 3rem rgba(31, 45, 61, 0.125);
+        }
+    }
+}

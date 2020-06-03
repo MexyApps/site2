@@ -1,0 +1,16 @@
+- nome: Tem Busão
+  descricao: Horário de ônibus de Cachoeiro de Itapemirim e região.
+  icone: /assets/img/aplicativos/tembusao.png
+  googleplay: https://play.google.com/store/apps/details?id=br.com.aiker.tembusao
+
+
+- nome: Coffe
+  descricao: Cotação do Café Arábica e do Conilon/Robusta
+  icone: /assets/img/aplicativos/coffe.png
+  googleplay: https://play.google.com/store/apps/details?id=br.com.aiker.cotacaocafe
+
+
+- nome: Cine Sul
+  descricao: Horários das sessões de cinema de Cachoeiro, Marataízes e Piúma
+  icone: /assets/img/aplicativos/cinesul.png
+  googleplay: https://play.google.com/store/apps/details?id=br.com.aiker.cinesul
