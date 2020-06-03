@@ -1,11 +1,11 @@
 .portifolio {
+    .title {
+        color: $secondary;
+    }
+
     .card {
         min-height: 32rem;
         transition: all 0.5s;
-
-        .title {
-            color: $primary;
-        }
 
         &:hover {
             transform: translateY(-1rem);

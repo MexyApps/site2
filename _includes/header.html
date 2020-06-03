@@ -1,22 +1,40 @@
-<header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<header class="header">
+
+    <nav class="menu">
+
+    </nav>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
             <a class="navbar-brand" href="{% link index.html %}">
                 <img src="{{ "/assets/img/logo.svg" | relative_url }}" height="60" class="d-inline-block align-top"
                     alt="Logo da Mexy" loading="lazy" />
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler button-hamburger" type="button" id="hamburger-navbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                     <a class="nav-item nav-link" href="{% link index.html %}">Home</a>
                     <a class="nav-item nav-link" href="{% link sobre.md %}">Sobre</a>
                     <a class="nav-item nav-link" href="{% link index.html %}">Portifólio</a>
-                    <a class="nav-item nav-link" href="{% link sobre.md %}">Contato</a>
+                    <a class="nav-item nav-link" href="{% link contato.md %}">Contato</a>
                 </div>
             </div>
         </div>
     </nav>
 </header>
+
+<script>
+    const buttonHamburger = document.getElementById("hamburger-navbar");
+    const navBar = document.getElementById("navbarNavAltMarkup");
+    console.log(buttonHamburger, navBar);
+
+    buttonHamburger.addEventListener("click", function () {
+        if (navBar.classList.contains("show")) {
+            navBar.classList.remove("show");
+        } else {
+            navBar.classList.add("show");
+        }
+    }, false);
+</script>

@@ -6,7 +6,7 @@ author: Mexy
 description: >- # this means to ignore newlines until "baseurl:"
   A melhor maneira de construir suas soluções em tecnologia
 
-permalink: /:title/
+permalink: /blog/:title/
 lang: "pt-br"
 
 
